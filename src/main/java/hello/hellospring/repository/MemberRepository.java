@@ -11,6 +11,6 @@ import java.util.Optional;
 public interface MemberRepository {
     Member save(Member member); // 회원를 저장
     Optional<Member> findById(Long id); //회원 id를 찾음
-    Optional<Member> findByname(String name); //회원 이름을 찾음
+    Optional<Member> findByName(String name); //회원 이름을 찾음
     List<Member> findAll(); // 모든 회원을 조회
 }
