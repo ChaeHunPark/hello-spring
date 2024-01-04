@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
@@ -17,7 +17,7 @@ public class MemberService {
     /* 외부에서 직접 객체를 넣어준다.
     *  DI
     * */
-    @Autowired
+
     public MemberService(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 // 멤버 구현체
-@Repository
+
 public class MemoryMemberRepository implements MemberRepository{
 
     /*
