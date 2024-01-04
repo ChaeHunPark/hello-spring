@@ -25,11 +25,10 @@ class MemberServiceIntegrationTest {
 
 
     @Test
-    @Commit
     void 회원가입() {
         //given 주어진 상황
         Member member = new Member();
-        member.setName("spring111");
+        member.setName("spring1112");
 
         //when 실행하였을 때
         Long saveId = memberService.join(member);
